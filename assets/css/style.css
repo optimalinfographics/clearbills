@@ -8,7 +8,7 @@ body{
     margin: 0;
 }
 h1{
-    font-weight: 600;
+    font-weight:600;
 }
 h2,
 h3,
@@ -93,13 +93,13 @@ section.sec-padding{
  Digital Strategies 
  ========================= */
 
-.strategy .strategy-text{
+.section .section-text{
     margin-top: 80px;
 }
-.strategy .banner-img{
+.section .banner-img{
     position: relative;
 }
-.strategy .banner-img img{
+.section .banner-img img{
     margin-top: 70px;
     width: 100%;
 }
@@ -315,7 +315,7 @@ footer .footer-link a {
         justify-content: space-between;
     }
     .banner .container .banner-text{
-        width: 55%;
+        max-width: 400px;
         
     }
     .banner .container .banner-text h1{
@@ -332,16 +332,16 @@ footer .footer-link a {
         max-width: 500px !important;
     }
 
-    /* Strategy */
-    .strategy .container{
+    /* section */
+    .section .container{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
-    .strategy .container.reverse{
+    .section .container.reverse{
         flex-direction: row-reverse;
     }
-    .strategy .container .strategy-text{
-        width: 45%;
+    .section .container .section-text{
+        max-width: 400px;
         margin-top: 100px;
     }
 
@@ -407,10 +407,29 @@ footer .footer-link a {
     footer .container .copyright{
         margin-top: 20px;
     }
+    /* Testimony */
+    .testimony .list .meta img{
+        left: 43%;
+    }
 }
 
+@media (min-width: 1024px){
+    .section .container .section-text {
+        width: 38%;
+        margin-top: 200px;
+    }
+}
 @media (min-width: 1200px){
     .container {
         max-width: 1140px;
+    }
+}
+@media (min-width: 1280px){
+    .container {
+        max-width: 1200px;
+    }
+    .section .container .section-text {
+        width: 38%;
+        margin-top: 200px;
     }
 }

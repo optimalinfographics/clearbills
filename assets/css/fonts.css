@@ -1,0 +1,25 @@
+* {
+
+/* Colors: */
+--unnamed-color-ba4238: #BA4238;
+--unnamed-color-121212: #121212;
+
+/* Font/text values */
+--unnamed-font-family-avenir: Avenir;
+--unnamed-font-style-normal: normal;
+--unnamed-font-weight-medium: medium;
+--unnamed-font-size-14: 14px;
+--unnamed-character-spacing-0: 0px;
+--unnamed-line-spacing-22: 22px;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+font-family: var(--unnamed-font-family-avenir);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-medium);
+font-size: var(--unnamed-font-size-14);
+line-height: var(--unnamed-line-spacing-22);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-121212);
+}
