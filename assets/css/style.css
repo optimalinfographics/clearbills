@@ -84,7 +84,7 @@ section.sec-padding{
  Welcome Banner 
  ========================= */
 
-.banner .banner-img img{
+.banner .banner-img svg{
     width: 100%;
     margin-top: 70px;
 }
@@ -192,7 +192,7 @@ section.sec-padding{
      margin-left: auto;
      margin-right: auto;
  }
- .form form div [type='email']{
+ .form form div input[type='email']{
      width: 85%;
      padding: 15px;
      border: 1px solid #2337B8;
@@ -346,11 +346,12 @@ footer .footer-link a {
     .banner .container .banner-text h1{
         font-size: 3em;
         margin-bottom: 0px;
+        margin-top: 30px;
     }
     /* .banner .container .banner-img{
         width: 35%;
     } */
-    .banner .container .banner-img img{
+    .banner .container .banner-img svg{
         margin-top: 0px;
     }
     .banner-img{
@@ -442,6 +443,9 @@ footer .footer-link a {
     .section .container .section-text {
         max-width: 400px;
         margin-top: 200px;
+    }
+    .banner .container .banner-text h1{
+        margin-top: 140px;
     }
     .section .container .section-text h2{
         font-size: 2.6em;
